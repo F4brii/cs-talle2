@@ -1,0 +1,634 @@
+[
+    {
+        "label": "saludar",
+        "importPath": "funciones",
+        "description": "funciones",
+        "isExtraImport": true,
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "devolver_variable",
+        "importPath": "funciones",
+        "description": "funciones",
+        "isExtraImport": true,
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "devolver_variable",
+        "importPath": "funciones",
+        "description": "funciones",
+        "isExtraImport": true,
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "dividir",
+        "importPath": "funciones",
+        "description": "funciones",
+        "isExtraImport": true,
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "convertir_numero",
+        "importPath": "funciones",
+        "description": "funciones",
+        "isExtraImport": true,
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "dividir",
+        "importPath": "funciones",
+        "description": "funciones",
+        "isExtraImport": true,
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "sumar",
+        "importPath": "funciones",
+        "description": "funciones",
+        "isExtraImport": true,
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "sumar",
+        "importPath": "funciones",
+        "description": "funciones",
+        "isExtraImport": true,
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "mayor_edad",
+        "importPath": "funciones",
+        "description": "funciones",
+        "isExtraImport": true,
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "mayor_edad",
+        "importPath": "funciones",
+        "description": "funciones",
+        "isExtraImport": true,
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "devolver_variable",
+        "importPath": "funciones",
+        "description": "funciones",
+        "isExtraImport": true,
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "devolver_variable",
+        "importPath": "funciones",
+        "description": "funciones",
+        "isExtraImport": true,
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "devolver_none",
+        "importPath": "funciones",
+        "description": "funciones",
+        "isExtraImport": true,
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "devolver_none",
+        "importPath": "funciones",
+        "description": "funciones",
+        "isExtraImport": true,
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "isExtraImport": true,
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "addit",
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "isExtraImport": true,
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "mult",
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "isExtraImport": true,
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "isExtraImport": true,
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "length",
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "isExtraImport": true,
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "isExtraImport": true,
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "remove_letter",
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "isExtraImport": true,
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "max",
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "isExtraImport": true,
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "odd_numbers",
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "isExtraImport": true,
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "even_numbers",
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "isExtraImport": true,
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "is_even",
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "isExtraImport": true,
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 2,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "def total(lst):\n    accum=0\n    for x in lst:\n        accum=accum+x\n    return accum\nlst=[1,2,3,4]\nres = total(lst)\nprint(res)\n# Se agrega 5 al numero que se envia\ndef addit(x):",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "addit",
+        "kind": 2,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "def addit(x):\n    y = x+5\n    return y\nres = addit(3)\nprint(res)\n# Multiplica el numero enviado por el numero enviado + 5\ndef mult(z):\n    q = z * addit(z)\n    return q\nres = mult(3)",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "mult",
+        "kind": 2,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "def mult(z):\n    q = z * addit(z)\n    return q\nres = mult(3)\nprint(res)\n# Divide el numero a enviado entre el numero b enviado\ndef divide(a, b):\n    return a/b\nres = divide(8, 2)\nprint(res)",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "def divide(a, b):\n    return a/b\nres = divide(8, 2)\nprint(res)\n# Calcula el tamaño de una lista o string y devuelve un valor segun el tamaño\ndef length(lst):\n    if len(lst) >=5:\n        return \"Longer than 5\"\n    else:\n        return \"Less than 5\"",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "length",
+        "kind": 2,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "def length(lst):\n    if len(lst) >=5:\n        return \"Longer than 5\"\n    else:\n        return \"Less than 5\"\nres = length([2, 3, 5, 2])\nprint(res)\nres = length(\"Prueba\")\nprint(res)\n#Recibe un string y lo devulve al reves -> Ejemplo: casa -> asac",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "kind": 2,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "def reverse(mystr):\n    reversed = ''\n    for char in mystr:\n        reversed = char + reversed\n    return reversed\nres = reverse(\"casa\")\nprint(res)\n#Recibe por parametro un string y una letra y se reemplaza la letra que se requera\ndef remove_letter(theLetter, theString):\n    if theLetter in theString:",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "remove_letter",
+        "kind": 2,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "def remove_letter(theLetter, theString):\n    if theLetter in theString:\n        return theString.replace(theLetter,\"\")\n    else:\n        return theString\nres = remove_letter(\"a\", \"Hola esto es una prueba\")\nprint(res)\n#Recibe una arrelo de numeros y devuelve el numero mayor\ndef max(lst):\n    max = 0",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "max",
+        "kind": 2,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "def max(lst):\n    max = 0\n    for e in lst:\n        if e > max:\n            max = e\n    return max\nres = max([1, 8, 3, 0, 12])\nprint(res)\n#recibe una lista de numeros y devuelve solo los elementos pares\ndef even_numbers(mix):",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "even_numbers",
+        "kind": 2,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "def even_numbers(mix):\n    ev_li = []\n    for i in mix:\n        if (i % 2 == 0):\n            ev_li.append(i)\n    return ev_li\nres = even_numbers([1, 8, 3, 6, 12, 5])\nprint(res)\n#recibe una lista de numeros y devuelve solo los elementos impares\ndef odd_numbers(mix):",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "odd_numbers",
+        "kind": 2,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "def odd_numbers(mix):\n    od_li = []\n    for i in mix:\n        if (i % 2 != 0):\n            od_li.append(i)\n    return od_li\nres = odd_numbers([1, 8, 3, 6, 12, 5])\nprint(res)\n#Recibe un numero, y devuelve un booleano, donde indica si es par\ndef is_even(number):",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "is_even",
+        "kind": 2,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "def is_even(number):\n    return number % 2 == 0\nres = is_even(23)\nprint(res)",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "res = total(lst)\nprint(res)\n# Se agrega 5 al numero que se envia\ndef addit(x):\n    y = x+5\n    return y\nres = addit(3)\nprint(res)\n# Multiplica el numero enviado por el numero enviado + 5\ndef mult(z):",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "res = addit(3)\nprint(res)\n# Multiplica el numero enviado por el numero enviado + 5\ndef mult(z):\n    q = z * addit(z)\n    return q\nres = mult(3)\nprint(res)\n# Divide el numero a enviado entre el numero b enviado\ndef divide(a, b):",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "res = mult(3)\nprint(res)\n# Divide el numero a enviado entre el numero b enviado\ndef divide(a, b):\n    return a/b\nres = divide(8, 2)\nprint(res)\n# Calcula el tamaño de una lista o string y devuelve un valor segun el tamaño\ndef length(lst):\n    if len(lst) >=5:",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "res = divide(8, 2)\nprint(res)\n# Calcula el tamaño de una lista o string y devuelve un valor segun el tamaño\ndef length(lst):\n    if len(lst) >=5:\n        return \"Longer than 5\"\n    else:\n        return \"Less than 5\"\nres = length([2, 3, 5, 2])\nprint(res)",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "res = length([2, 3, 5, 2])\nprint(res)\nres = length(\"Prueba\")\nprint(res)\n#Recibe un string y lo devulve al reves -> Ejemplo: casa -> asac\ndef reverse(mystr):\n    reversed = ''\n    for char in mystr:\n        reversed = char + reversed\n    return reversed",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "res = length(\"Prueba\")\nprint(res)\n#Recibe un string y lo devulve al reves -> Ejemplo: casa -> asac\ndef reverse(mystr):\n    reversed = ''\n    for char in mystr:\n        reversed = char + reversed\n    return reversed\nres = reverse(\"casa\")\nprint(res)",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "res = reverse(\"casa\")\nprint(res)\n#Recibe por parametro un string y una letra y se reemplaza la letra que se requera\ndef remove_letter(theLetter, theString):\n    if theLetter in theString:\n        return theString.replace(theLetter,\"\")\n    else:\n        return theString\nres = remove_letter(\"a\", \"Hola esto es una prueba\")\nprint(res)",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "res = remove_letter(\"a\", \"Hola esto es una prueba\")\nprint(res)\n#Recibe una arrelo de numeros y devuelve el numero mayor\ndef max(lst):\n    max = 0\n    for e in lst:\n        if e > max:\n            max = e\n    return max\nres = max([1, 8, 3, 0, 12])",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "res = max([1, 8, 3, 0, 12])\nprint(res)\n#recibe una lista de numeros y devuelve solo los elementos pares\ndef even_numbers(mix):\n    ev_li = []\n    for i in mix:\n        if (i % 2 == 0):\n            ev_li.append(i)\n    return ev_li\nres = even_numbers([1, 8, 3, 6, 12, 5])",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "res = even_numbers([1, 8, 3, 6, 12, 5])\nprint(res)\n#recibe una lista de numeros y devuelve solo los elementos impares\ndef odd_numbers(mix):\n    od_li = []\n    for i in mix:\n        if (i % 2 != 0):\n            od_li.append(i)\n    return od_li\nres = odd_numbers([1, 8, 3, 6, 12, 5])",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "res = odd_numbers([1, 8, 3, 6, 12, 5])\nprint(res)\n#Recibe un numero, y devuelve un booleano, donde indica si es par\ndef is_even(number):\n    return number % 2 == 0\nres = is_even(23)\nprint(res)",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "ejercicio",
+        "description": "ejercicio",
+        "peekOfCode": "res = is_even(23)\nprint(res)",
+        "detail": "ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "saludar",
+        "kind": 2,
+        "importPath": "funciones",
+        "description": "funciones",
+        "peekOfCode": "def saludar(nombre):\n\treturn \"Hola %s\" % nombre\ndef sumar(*args):\n    resultado = 0\n    for i in args:\n        resultado += i\n    return resultado\ndef mayor_edad(edad):\n\treturn edad > 18\ndef devolver_variable(var):",
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "sumar",
+        "kind": 2,
+        "importPath": "funciones",
+        "description": "funciones",
+        "peekOfCode": "def sumar(*args):\n    resultado = 0\n    for i in args:\n        resultado += i\n    return resultado\ndef mayor_edad(edad):\n\treturn edad > 18\ndef devolver_variable(var):\n\treturn var\ndef devolver_none(var):",
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "mayor_edad",
+        "kind": 2,
+        "importPath": "funciones",
+        "description": "funciones",
+        "peekOfCode": "def mayor_edad(edad):\n\treturn edad > 18\ndef devolver_variable(var):\n\treturn var\ndef devolver_none(var):\n\treturn  None if (len(var) > 4) else \"Hola\"\ndef dividir(a, b):\n\treturn a/b\ndef convertir_numero(a):\n\ttry:",
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "devolver_variable",
+        "kind": 2,
+        "importPath": "funciones",
+        "description": "funciones",
+        "peekOfCode": "def devolver_variable(var):\n\treturn var\ndef devolver_none(var):\n\treturn  None if (len(var) > 4) else \"Hola\"\ndef dividir(a, b):\n\treturn a/b\ndef convertir_numero(a):\n\ttry:\n\t\tnumero = int(a)\n\texcept ValueError:",
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "devolver_none",
+        "kind": 2,
+        "importPath": "funciones",
+        "description": "funciones",
+        "peekOfCode": "def devolver_none(var):\n\treturn  None if (len(var) > 4) else \"Hola\"\ndef dividir(a, b):\n\treturn a/b\ndef convertir_numero(a):\n\ttry:\n\t\tnumero = int(a)\n\texcept ValueError:\n\t\traise ValueError(\"No se pudo convertir a entero\")\n\treturn numero",
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "dividir",
+        "kind": 2,
+        "importPath": "funciones",
+        "description": "funciones",
+        "peekOfCode": "def dividir(a, b):\n\treturn a/b\ndef convertir_numero(a):\n\ttry:\n\t\tnumero = int(a)\n\texcept ValueError:\n\t\traise ValueError(\"No se pudo convertir a entero\")\n\treturn numero",
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "convertir_numero",
+        "kind": 2,
+        "importPath": "funciones",
+        "description": "funciones",
+        "peekOfCode": "def convertir_numero(a):\n\ttry:\n\t\tnumero = int(a)\n\texcept ValueError:\n\t\traise ValueError(\"No se pudo convertir a entero\")\n\treturn numero",
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tnumero",
+        "kind": 5,
+        "importPath": "funciones",
+        "description": "funciones",
+        "peekOfCode": "\t\tnumero = int(a)\n\texcept ValueError:\n\t\traise ValueError(\"No se pudo convertir a entero\")\n\treturn numero",
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test1",
+        "description": "test1",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def test_1(self):\n        resultado = saludar(\"Daniel\")\n        self.assertEqual(resultado, \"Hola, Daniel\")\n    def test_2(self):\n        resultado = saludar(\"Juan\")\n        self.assertEqual(resultado, \"Hola Juan\")\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "test1",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test10",
+        "description": "test10",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def test_1(self):\n        resultado = devolver_variable([1, 5, 6, 3, 9])\n        self.assertIn(9, resultado)\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "test10",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test11",
+        "description": "test11",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def test_1(self):\n        resultado = devolver_variable([1, 5, 6, 3, 9])\n        self.assertNotIn(0, resultado)\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "test11",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test12",
+        "description": "test12",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def test_1(self):\n        empleado = \"aaa\"\n        self.assertIsInstance(empleado, str) #or (str, int, float)\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "test12",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test13",
+        "description": "test13",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def test_1(self):\n        empleado = \"aaa\"\n        self.assertNotIsInstance(empleado, int) #or (str, int, float)\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "test13",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test14",
+        "description": "test14",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def test_1(self):\n    \twith self.assertRaises(ZeroDivisionError):\n    \t\tresultado = dividir(0, 0)\n    def test_2(self):\n    \ttry:\n    \t\tresult = convertir_numero(\"10\")\n    \t\tself.assertIsInstance(result, int)\n    \texcept ValueError:\n    \t\tself.fail()",
+        "detail": "test14",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test15",
+        "description": "test15",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def setUp(self):\n        print(\"--- setUp\")\n    def tearDown(self):\n        print(\"--- tearDown\")\n    def test_1(self):\n        print(\"--- Test: 1\")\n    def test_2(self):\n        print(\"--- Test: 2\")\nif __name__ == '__main__':",
+        "detail": "test15",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalcularTotalTest",
+        "kind": 6,
+        "importPath": "test16",
+        "description": "test16",
+        "peekOfCode": "class TestCalcularTotalTest(unittest.TestCase):\n   def test_1(self):\n       lst=[1,2,3,4]\n       resultado = total(lst)\n       self.assertEqual(10, resultado)\n   def test_2(self):\n       x = 1\n       result = addit(x)\n       self.assertEqual(6, result)\n   def test_3(self):",
+        "detail": "test16",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test2",
+        "description": "test2",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def test_1(self):\n        resultado = sumar(2, 4, 5 , 1)\n        self.assertEqual(12, resultado)\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "test2",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test3",
+        "description": "test3",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def test_1(self):\n        resultado = sumar(2, 4, 5 , 1)\n        self.assertNotEqual(2, resultado)\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "test3",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test4",
+        "description": "test4",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def test_1(self):\n        resultado = mayor_edad(21)\n        self.assertTrue(resultado)\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "test4",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test5",
+        "description": "test5",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def test_1(self):\n        resultado = mayor_edad(12)\n        self.assertFalse(resultado)\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "test5",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test6",
+        "description": "test6",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def test_1(self):\n        var = [3, 4]\n        resultado = devolver_variable(var)\n        self.assertIs(var, resultado)\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "test6",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test7",
+        "description": "test7",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def test_1(self):\n        var = [3, 4]\n        resultado = devolver_variable(var)\n        self.assertIsNot(var[0], resultado)\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "test7",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test8",
+        "description": "test8",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def test_1(self):\n        resultado = devolver_none(\"Prueba\")\n        self.assertIsNone(resultado)\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "test8",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculaMedia",
+        "kind": 6,
+        "importPath": "test9",
+        "description": "test9",
+        "peekOfCode": "class TestCalculaMedia(unittest.TestCase):\n    def test_1(self):\n        resultado = devolver_none(\"Pru\")\n        self.assertIsNotNone(resultado)\nif __name__ == '__main__':\n    unittest.main()",
+        "detail": "test9",
+        "documentation": {}
+    }
+]
