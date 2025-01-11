@@ -37,6 +37,28 @@ pipeline {
     }
 
     post {
+        success {
+            script {
+                // Enviar correo en caso de éxito
+                emailext (
+                    subject: "Pipeline Exitoso:",
+                    body: "El pipeline ha finalizado exitosamente.",
+                    to: 'destinatario@example.com'
+                )
+            }
+        }
+
+        failure {
+            script {
+                // Enviar correo en caso de fallo
+                emailext (
+                    subject: "Pipeline Fallido",
+                    body: "El pipelineha fallado. Verifica los detalles.",
+                    to: 'destinatario@example.com'
+                )
+            }
+        }
+
         always {
             echo "Pipeline completado. Limpieza finalizada."
         }
