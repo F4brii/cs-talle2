@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo "Paso 1: Iniciando la preparación del entorno..."
                 // Cambiar de carpeta
-                dir('my_project') {
+                dir('Seleniumhooks/Test') {
                     echo "Cambiando al directorio 'my_project'..."
 
                     // Instalar dependencias de Python
