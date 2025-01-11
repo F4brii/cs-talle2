@@ -18,15 +18,19 @@ pipeline {
             }
         }
 
-        stage("Paso 2: Construcción") {
+        stage("Paso 2: Ejecutar pruebas unitarias") {
             steps {
-                echo "Paso 2: Construcción del proyecto en proceso..."
-            }
-        }
+                echo "Paso 2: Ejecutar pruebas unitarias..."
+                dir('Seleniumhooks/Test') {
+                    echo "Cambiando al directorio 'my_project'..."
 
-        stage("Paso 3: Despliegue") {
-            steps {
-                echo "Paso 3: Desplegando el proyecto..."
+                    // Instalar dependencias de Python
+                    echo "Instalando dependencias de Python..."
+                    sh '''
+                    python -m unittest test0.py
+                    python -m unittest test1.py
+                    '''
+                }
             }
         }
     }
