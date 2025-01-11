@@ -27,8 +27,8 @@ pipeline {
                     // Instalar dependencias de Python
                     echo "Instalando dependencias de Python..."
                     sh '''
-                    python -m unittest test0.py
-                    python -m unittest test1.py
+                    python3 -m unittest test0.py
+                    python3 -m unittest test1.py
                     '''
                 }
             }
