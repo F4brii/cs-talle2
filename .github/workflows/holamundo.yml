@@ -1,0 +1,14 @@
+name: Hola mundo Jhon
+
+on:
+  push:
+    branches:
+      - main2
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Saludar
+      run: echo "Hola Mundo !!!"
