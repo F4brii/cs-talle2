@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  jenkins:
+    build: .  # Indica que use el Dockerfile en el directorio actual
+    container_name: jenkins
+    ports:
+      - "8080:8080"  # Puerto de Jenkins
+      - "50000:50000"  # Puerto de agente para Jenkins
+    volumes:
+      - jenkins_home:/var/jenkins_home  # Volumen persistente para Jenkins
+      - /var/run/docker.sock:/var/run/docker.sock  # Permite ejecutar Docker desde Jenkins
+    environment:
+      - JENKINS_OPTS=--httpPort=8080
+    restart: unless-stopped
+
+volumes:
+  jenkins_home:
+    driver: local
