@@ -13,6 +13,7 @@ pipeline {
                     echo "Instalando dependencias de Python..."
                     sh '''
                     pip install -r requirements.txt --break-system-packages
+                    pip install --upgrade selenium --break-system-packages
                     '''
                 }
             }
