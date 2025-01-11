@@ -12,10 +12,7 @@ pipeline {
                     // Instalar dependencias de Python
                     echo "Instalando dependencias de Python..."
                     sh '''
-                    python3 -m venv venv
-                    source venv/bin/activate
-                    pip install --upgrade pip
-                    pip install -r requirements.txt
+                    pip install -r requirements.txt --break-system-packages
                     '''
                 }
             }
